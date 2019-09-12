@@ -50,3 +50,9 @@ $("form").submit(function(e){
         $(this).parents("tr").find(".btn-cancel").remove();
         $(this).parents("tr").find(".btn-update").remove();
     });
+
+
+function showResultSearch(){
+    console.log($("tr").attr('data-name'))
+}
+
